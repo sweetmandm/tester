@@ -15,7 +15,8 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.queue = [[NSOperationQueue alloc] init];
