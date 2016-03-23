@@ -21,7 +21,7 @@
     
     self.queue = [[NSOperationQueue alloc] init];
     
-    self.label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100.0, 40.0)];
+    self.label = [[UILabel alloc] initWithFrame:CGRectMake(0, 100.0, 320.0, 40.0)];
     self.label.text = @"This is the label";
     [self.view addSubview:self.label];
 }
